@@ -1,0 +1,50 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+}
+
+span {
+	background-color: white;
+	opacity: 0.85;
+}
+
+img {
+	width: 100%;
+	max-width: 300px;
+}
+
+input {
+	width: 100%;
+}
+
+h5,
+.listElement {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.search-area input{
+	padding:5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -65px;
+	padding: 0 0 65px;
+}
+
+/* Full screen map */
+#map-canvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
